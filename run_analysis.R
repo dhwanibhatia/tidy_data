@@ -33,7 +33,7 @@ X_test_data<-mutate(X_test_data,subject=subject_test[,1])
 labels_test <- read.table(labels_test_path)
 
 // reading activity names corresponding to labels
-act_path <- find.path(".","activity_labels.txt")
+act_path <- file.path(".","activity_labels.txt")
 activity_labels <- read.table(act_path)
 
 // adding label column with labels being substituted with their corresponding values from activity data
