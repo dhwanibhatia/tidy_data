@@ -1,4 +1,4 @@
-// setting the paths of various files
+//setting the paths of various files 
 x_train_path <- file.path(".","train","X_train.txt")
 feature_path <- file.path(".","features.txt")
 subject_train_path <- file.path(".","train","subject_train.txt")
